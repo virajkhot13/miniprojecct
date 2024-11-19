@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Attendance for {{ date }}</h1>
+    <ul>
+        {% for result in results %}
+            <li>{{ result[0] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
